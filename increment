@@ -1,0 +1,16 @@
+//Author :Atif Khot 
+//Date : 02/09/2022
+//Project :  Increment & Decrement
+
+#include <stdio.h>
+
+void main()
+{
+    int a;
+    a=25;
+    int x;
+    x=--a;
+    printf("a=%d",a);
+    printf("\nx=%d",x);
+    
+}
