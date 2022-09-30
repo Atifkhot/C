@@ -1,0 +1,25 @@
+* ATM*/
+#include<stdio.h>
+#define pincode 8905
+void main()
+
+{
+    int amount;
+    int Upincode;
+    
+    printf("Enter pincode : ");
+    scanf("%d",&Upincode);
+    
+    
+    if(Upincode==pincode)
+    {
+        printf("\nEnter amount : ");
+        scanf("%d",&amount);
+    }
+    else
+    {
+        printf("\nPincode is wrong\n");
+    }
+    
+    printf("\nThank you");
+}
