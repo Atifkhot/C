@@ -1,0 +1,35 @@
+/* Find if the given character is vowel or not*/
+#include<stdio.h>
+
+void main()
+
+{
+    char ch;
+    
+    printf("Enter alphabet : ");
+    scanf("%c",&ch);
+    
+    if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+    {
+        printf("\nAlphabet is vowel",ch);
+        
+    }
+    else
+    {
+        printf("\nAlphabet is not vowel");
+    }
+}
+
+OUTPUT
+
+Enter alphabet : A
+Alphabet is vowel
+
+Enter alphabet : B
+Alphabet is not vowel
+
+Enter alphabet : o
+Alphabet is vowel
+
+Enter alphabet : z
+Alphabet is not vowel
