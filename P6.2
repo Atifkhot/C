@@ -1,0 +1,57 @@
+/* Find the greatest number*/
+#include<stdio.h>
+
+void main()
+
+{
+   int a,b,c;
+   
+   printf("Enter a : ");
+   scanf("%d",&a);
+   
+   printf("\nEnter b : ");
+   scanf("%d",&b);
+   
+   printf("\nEnter c : ");
+   scanf("%d",&c);
+   
+   if(a>b)
+   {
+       if(a>c)
+       printf("\na is greatest");
+       else
+       printf("\nc is greatest\n");
+   }
+   else 
+   {
+        if(b>c)
+       printf("\nb is greatest");
+       else
+       printf("\nc is greatest\n");
+       
+       
+       
+   }
+   
+   OUTPUT
+   
+   
+  Enter a : 3
+Enter b : 2
+Enter c : 1
+a is greatest
+
+Enter a : 1
+Enter b : 3
+Enter c : 2
+b is greatest
+
+Enter a : 1
+Enter b : 2
+Enter c : 3
+c is greatest
+   
+}
+
+OUTPUT
+
