@@ -1,0 +1,50 @@
+{
+    int percentage;
+    
+    printf("Enter your percentage : ");
+    scanf("%d",&percentage);
+        
+            switch(percentage/10)
+            {
+            case 10:
+            printf("\nA+");
+            break;
+        
+            case 9:
+            printf("\nA");
+            break;
+        
+            case 8:
+            printf("\nA");
+            break;
+        
+            case 7:
+            printf("\nB");
+            break;
+            case 6:
+            printf("\nB");
+            break;
+        
+            case 5:
+            printf("\nC");
+            break;
+        
+            case 4:
+            printf("\nC");
+            break;
+        
+        
+            default:
+            printf("\nFail");
+            }
+            
+    return 0;
+}
+
+OUTPUT
+
+Enter your percentage : 39
+Fail
+
+Enter your percentage : 99
+A
