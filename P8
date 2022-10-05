@@ -12,7 +12,7 @@ void main()
     printf("\nEnter b : ");
     scanf("%f",&b);
     
-    printf("\n1.Add\n2.Sub\n3.Mul\n4.Div\nEnter operation number : ");
+    printf("\n1.Add\n2.Sub\n3.Mul\n4.Div\nChoose operation number : ");
     scanf("%d",&operation);
     
         switch(operation)
