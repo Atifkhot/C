@@ -1,0 +1,98 @@
+/*for loop*/
+//hello world
+#include <stdio.h>
+
+void main()
+{
+    int i;
+
+    for(i=1;i<=5;i++)
+    {
+    printf("Hello world %d\n",i);
+    }
+}
+
+OUTPUT
+
+Hello world 1
+Hello world 2
+Hello world 3
+Hello world 4
+Hello world 5
+
+**************
+//simple for loop
+
+#include <stdio.h>
+
+void main()
+{
+    int i;
+    int num;
+    printf("Enter how many prints you want : ");
+    scanf("%d",&num);
+    for(i=1;i<=num;i++)
+    {
+    printf("\nHello world %d\n",i);
+    }
+}
+
+OUTPUT
+
+Enter how many prints you want : 4
+Hello world 1
+Hello world 2
+Hello world 3
+Hello world 4
+
+************
+//reverse for loop
+#include <stdio.h>
+
+void main()
+{
+    int i;
+    int num;
+    printf("Enter how many prints you want : ");
+    scanf("%d",&num);
+    for(i=num;i > 0;i--)
+    {
+    printf("\nHello world %d\n",i);
+    }
+}
+
+OUTPUT
+
+Enter how many prints you want : 5
+Hello world 5
+Hello world 4
+Hello world 3
+Hello world 2
+Hello world 1
+
+************
+//varible from user
+
+#include <stdio.h>
+
+void main()
+{
+    int i;
+    int num;
+    printf("Enter how many prints you want : ");
+    scanf("%d",&num);
+    int sum=0;
+    for(i=1;i<=num;i++)
+    {
+  //  printf("\nHello world %d\n",i);
+    sum=sum+i;
+    }
+    
+    printf("\nsum=%d",sum);
+    
+}
+
+OUTPUT
+
+Enter how many prints you want : 4
+sum=10
