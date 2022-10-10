@@ -1,0 +1,80 @@
+// Table
+#include <stdio.h>
+
+void main()
+
+{
+    int n;
+    printf("Enter table no. : ");
+    scanf("%d",&n);
+    
+    int i; 
+    
+    for(i=1;i<=10;i++)
+    {
+        printf("%dx%d=%d\n",n,i,n*i);
+    }
+}
+
+OUTPUT
+
+Enter table no. : 2
+2x1=2
+2x2=4
+2x3=6
+2x4=8
+2x5=10
+2x6=12
+2x7=14
+2x8=16
+2x9=18
+2x10=20
+
+************
+
+// sum and reverse of digit of given number
+#include <stdio.h>
+
+void main()
+
+{
+    int n;
+    int mod;
+    
+    printf("Enter no. : ");
+    scanf("%d",&n);
+    int en;
+    en=n;
+    int i; 
+    int sum=0;
+    int rev=0;
+    
+    for(i=1;n!=0;i++)
+    {
+       mod=n%10;
+       sum=sum+mod;
+       n=n/10;
+       rev=rev*10+mod;
+    }
+    
+    printf("sum %d\n",sum);
+    printf("reverse %d\n",rev);
+    
+        if(en==rev)
+        {
+            printf("PALINTRONE");
+        }
+        else
+        {
+            printf("\nNON-PALINTRONE");
+        }
+    
+    
+}
+
+OUTPUT
+
+Enter no. : 1221
+sum 6
+reverse 1221
+PALINTRONE
