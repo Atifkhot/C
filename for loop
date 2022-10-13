@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+void main()
+
+{
+    int i;
+    int n;
+    
+    printf("Enter number- ");
+    scanf("%d",&n);
+    
+    for(i=1;i<=n;i++)
+    {
+      printf("%d\n",i);
+    }
+}
+
+OUTPUT
+
+Enter number- 5
+1
+2
+3
+4
+5
+
+*********************
+
+#include <stdio.h>
+
+void main()
+
+{
+    int i;
+    int n;
+    
+    printf("Enter number of stars you want - ");
+    scanf("%d",&n);
+    
+    for(i=1;i<=n;i++)
+    {
+      printf("%d*\n",i);
+    }
+}
+
+OUTPUT
+
+Enter number of stars you want - 3
+1*
+2*
+3*
