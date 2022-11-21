@@ -1,0 +1,90 @@
+// No return no argument
+
+#include <stdio.h>
+
+void add()
+{
+    int a,b;
+    printf("Emter a : ");
+    scanf("%d",&a);
+    printf("Enter b : ");
+    scanf("%d",&b);
+    int sum=a+b;
+    printf("sum = %d ",sum);
+}
+
+void main()
+{
+    add();
+}
+
+**********************************
+
+//No return with argument
+#include <stdio.h>
+
+void add(int x,int y)
+{
+   
+    int sum=x+y;
+    printf("sum = %d ",sum);
+}
+
+void main()
+{
+     int a,b;
+    printf("Emter a : ");
+    scanf("%d",&a);
+    printf("Enter b : ");
+    scanf("%d",&b);
+    add(a,b);
+}
+
+*******************************
+
+//return with argument
+#include <stdio.h>
+
+int add(int x,int y)
+{
+   
+    int sum=x+y;
+   return sum;
+}
+
+void main()
+{
+     int a,b;
+    printf("Emter a : ");
+    scanf("%d",&a);
+    printf("Enter b : ");
+    scanf("%d",&b);
+    int Sum;
+    Sum=add(a,b);
+    printf("Sum=%d",Sum);
+}
+
+****************************
+
+//return with no argument
+#include <stdio.h>
+
+int add()
+{
+    int a,b;
+    printf("Emter a : ");
+    scanf("%d",&a);
+    printf("Enter b : ");
+    scanf("%d",&b);
+    int sum=a+b;
+   return sum;
+}
+
+void main()
+{
+   
+    
+    int Sum=add();
+ 
+    printf("Sum = %d",Sum);
+}
