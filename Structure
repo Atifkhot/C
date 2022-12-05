@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+struct student
+{
+    int rollno;
+
+    float percentage;
+};
+void main()
+{
+    struct student s1={17,89.20};
+    
+    printf("\nStudent 1 \nRoll no. : %d",s1.rollno);
+
+    printf("\nPercentage : %f",s1.percentage);
+    
+    struct student s2={11,55.00};
+    
+    printf("\n Student 2 \nRoll no. : %d",s2.rollno);
+    
+    printf("\nPercentage : %f",s2.percentage);
+}
