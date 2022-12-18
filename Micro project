@@ -1,0 +1,75 @@
+#include <stdio.h>
+#include <string.h>
+
+struct employee
+{
+    char name[20];
+    char place[20];
+    float DOJ;
+    int salary;
+}e[10];
+void main()
+{
+    struct employee e1={'Atif', 'Mumbra', 8.2012, 50000};
+    struct employee e2={'Umar', 'Panvel', 8.2012, 40000};
+    struct employee e3={'Ubaid', 'Mumbra', 9.2012, 40000};
+    struct employee e4={'Humza', 'Kalyan', 9.2012, 35000};
+    struct employee e5={'Aman', 'Bhiwandi', 9.2012, 35000};
+    struct employee e6={'Ayaan', 'Vashi', 9.2012, 30000};
+    struct employee e7={'Shafik', 'Mulund',9.2012, 30000};
+    struct employee e8={'Faeez', 'Kurla', 9.2012, 30000};
+    struct employee e9={'Afzal', 'Panvel', 10.2012, 20000};
+    struct employee e10={'Junaid', 'Bhiwandi',10.2012, 20000};
+        
+        int n;
+        printf("Enter enrolment number : ");
+        scanf("%d",&n);
+            
+            switch(n)
+        
+             {
+                case 1 :
+                printf("\n%s\n%s\n%d\n%d",e1.name,e1.place,e1.DOJ,e1.salary);
+                break;
+        
+                case 2 :
+                printf("\n\n%s\n%s\n%d\n%d",e2.name,e2.place,e2.DOJ,e2.salary);
+                break;
+        
+                case 3 :
+                printf("\n\n%s\n%s\n%d\n%d",e3.name,e3.place,e3.DOJ,e3.salary);
+                break;
+        
+                case 4 :
+                printf("\n\n%s\n%s\n%d\n%d",e4.name,e4.place,e4.DOJ,e4.salary);
+                break;
+        
+                case 5 :
+                printf("\n\n%s\n%s\n%d\n%d",e5.name,e5.place,e5.DOJ,e5.salary);
+                break;
+        
+                case 6 :
+                printf("\n\n%s\n%s\n%d\n%d",e6.name,e6.place,e6.DOJ,e6.salary);
+                break;
+        
+                case 7 :
+                printf("\n\n%s\n%s\n%d\n%d",e7.name,e7.place,e7.DOJ,e7.salary);
+                break;
+        
+                case 8 :
+                printf("\n\n%s\n%s\n%d\n%d",e8.name,e8.place,e8.DOJ,e8.salary);
+                break;
+        
+                case 9 :
+                printf("\n\n%s\n%s\n%d\n%d",e9.name,e9.place,e9.DOJ,e9.salary);
+                break;
+        
+            case 10 :
+            printf("\n\n%s\n%s\n%d\n%d",e10.name,e10.place,e10.DOJ,e10.salary);
+            break;
+        
+            default :
+            printf("Not Found!!!");
+          }
+    
+}
